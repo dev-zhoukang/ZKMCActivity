@@ -1,0 +1,95 @@
+
+.mui-content {
+    background: #fdd5dd;
+}
+.table-header {
+    width: 100%;
+    background: #fdd5dd;
+    position: absolute;
+    overflow: hidden;
+}
+.table-header .header-bg {
+    width: 100%;
+    height: 100%;
+    background: url("../images/icon-title.jpg") no-repeat top center / 100%;
+    padding-top: 94%;
+}
+
+#list-container {
+    margin-top: 400px;
+}
+
+/*cell样式*/
+.rank-cell {
+    width: 100%;
+    height: 85px;
+    position: relative;
+    background: #565656;
+}
+.rank-cell .intimacy {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    background: url("../images/icon_rank_heart.png") no-repeat center center / 90%;
+    font-size: .9rem;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+}
+.rank-cell .avatar {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url("../images/icon_gold.png") no-repeat center center / 100%;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+}
+.rank-cell .avatar.avatar-left {
+    left: 50%;
+    margin-left: -100px;
+}
+.rank-cell .avatar.avatar-right {
+    left: 50%;
+    margin-left: 50px;
+}
+.rank-cell .avatar span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../images/icon-avatar.jpg") no-repeat center center / 100%;
+    border-radius: 20px;
+    margin: 7px 0 0 2px;
+}
+.rank-cell .rank-num {
+    display: inline-block;
+    width: 60px;
+    height: 44px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -22px;
+    background: url("../images/icon_rank_num.png") no-repeat center center / 100%;
+    color: #fb4670;
+    text-align: right;
+    font-weight: 100;
+    line-height: 44px;
+    font-size: .95rem;
+    padding-right: 8px;
+}
+
+/*公有样式*/
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.border-bottom {
+    border-bottom: 1px solid #eee;
+}
